@@ -8,10 +8,27 @@ import obama from './images/obama.jpg';
 import rohith from './images/rohith.jpg';
 import spb from './images/spb.jpg';
 import vidhya from './images/vidya.jpg';
+import kunjako from './images/kunjako.jpg';
 const img = [
+  {
+    src: spb,
+    name: "S. P. Balasubrahmanyam"
+  }, {
+    src: vidhya,
+    name: "Vidya Balan"
+  }, {
+    src: rohith,
+    name: "Rohit Sharma"
+  },
   {
     src: mt,
     name: "M.T Vasudevan Nair"
+  }, {
+    src: obama,
+    name: "Barack Obama"
+  }, {
+    src: musk,
+    name: "Elon Musk"
   }, {
     src: hawking,
     name: "Stephen Hawking"
@@ -19,20 +36,8 @@ const img = [
     src: indira,
     name: "Indira Gandhi"
   }, {
-    src: musk,
-    name: "Elon Musk"
-  }, {
-    src: obama,
-    name: "Barack Obama"
-  }, {
-    src: rohith,
-    name: "Rohit Sharma"
-  }, {
-    src: spb,
-    name: "S. P. Balasubrahmanyam"
-  }, {
-    src: vidhya,
-    name: "Vidya Balan"
+    src: kunjako,
+    name: "Kunjako Boban"
   }
 ]
 
@@ -66,10 +71,10 @@ export const App = () => {
     setShowImageName(false)
   }
 
-  const selectImg = (index) =>{
+  const selectImg = (index) => {
     hide()
     setImageData(img[index])
-      setIndex(index)
+    setIndex(index)
   }
 
   const next = () => {
@@ -101,9 +106,9 @@ export const App = () => {
       </div>
       <div className="name">{(showImageName) ? imageData.name : '**************'}</div>
       <div className='button-container'>
-      {img.map((x, i) =>
-      <button className={index !==i ? 'image-index' : 'image-index selected'} onClick={()=>selectImg(i)} >{i+1}</button>
-      )}
+        {img.map((x, i) =>
+          <button className={index !== i ? 'image-index' : 'image-index selected'} onClick={() => selectImg(i)} >{i + 1}</button>
+        )}
       </div>
       <div className='button-container'>
         <button className="show" onClick={show}>Show</button>
