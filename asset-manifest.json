@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/guess-who/static/css/main.07f39899.css",
+    "main.js": "/guess-who/static/js/main.7a7634d3.js",
+    "static/js/787.9b01dd39.chunk.js": "/guess-who/static/js/787.9b01dd39.chunk.js",
+    "static/media/vidya.jpg": "/guess-who/static/media/vidya.e8e1e41fcd1dd157100d.jpg",
+    "static/media/spb.jpg": "/guess-who/static/media/spb.68c2850f30cdd93f068d.jpg",
+    "static/media/indira.jpg": "/guess-who/static/media/indira.b09ec116816d5c8c9386.jpg",
+    "static/media/hawking.jpg": "/guess-who/static/media/hawking.ccfe097becb7b484c58a.jpg",
+    "static/media/mt.jpg": "/guess-who/static/media/mt.69cbd9e9748b5eefae1f.jpg",
+    "static/media/rohith.jpg": "/guess-who/static/media/rohith.7e3b91801c4e07a4412f.jpg",
+    "static/media/musk.jpeg": "/guess-who/static/media/musk.854cf7d1d4e8033615d0.jpeg",
+    "static/media/obama.jpg": "/guess-who/static/media/obama.7f06ef10be78b61f3129.jpg",
+    "index.html": "/guess-who/index.html",
+    "main.07f39899.css.map": "/guess-who/static/css/main.07f39899.css.map",
+    "main.7a7634d3.js.map": "/guess-who/static/js/main.7a7634d3.js.map",
+    "787.9b01dd39.chunk.js.map": "/guess-who/static/js/787.9b01dd39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07f39899.css",
+    "static/js/main.7a7634d3.js"
+  ]
+}
