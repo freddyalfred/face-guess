@@ -1,38 +1,66 @@
 import { useState } from 'react'
 import './App.css';
-import mt from './images/mt.jpg';
-import hawking from './images/hawking.jpg';
-import indira from './images/indira.jpg';
-import musk from './images/musk.jpeg';
-import obama from './images/obama.jpg';
-import rohith from './images/rohith.jpg';
-import spb from './images/spb.jpg';
-import vidhya from './images/vidya.jpg';
+import mt from './images/mother_teresa.jpeg';
+import sf from './images/st_faustina.jpg';
+import st from './images/st_herese.jpeg';
+import sk from './images/st_kuriakose.jpeg';
+import sa from './images/st_alphonsa.jpeg';
+import sdb from './images/st_don_bosco.jpeg';
+import sds from './images/st_dominic_savio.jpeg';
+import sjp2 from './images/st_john_paul_ii.jpeg';
+import sjmv from './images/st_john_maria_vianney.jpeg';
+import se from './images/st_evuprasiamma.jpeg';
+import sdp from './images/st_devasahayam_pillai.jpeg';
+import saa from './images/st_anthony.jpeg';
+import sfx from './images/st_francis_xavier.jpg';
+import sfa from './images/st_thomas_aquinas.jpg';
+import smg from './images/st_maria_goretti.jpg';
 const img = [
   {
     src: mt,
-    name: "M.T Vasudevan Nair"
+    name: "വി. മദർ തെരേസ "
   }, {
-    src: hawking,
-    name: "Stephen Hawking"
+    src: sf,
+    name: "വി. ഫൗസ്റ്റീന "
   }, {
-    src: indira,
-    name: "Indira Gandhi"
+    src: st,
+    name: "വി. കൊച്ചുത്രേസ്യ "
+  },{
+    src: sk,
+    name: "വി. ചാവറ കുര്യാക്കോസ്‌ ഏലിയാസ്"
   }, {
-    src: musk,
-    name: "Elon Musk"
+    src: sa,
+    name: "വി. അൽഫോൻസാ "
   }, {
-    src: obama,
-    name: "Barack Obama"
+    src: sdb,
+    name: "വി. ഡോൺ ബോസ്കോ "
   }, {
-    src: rohith,
-    name: "Rohit Sharma"
+    src: sds,
+    name: "വി. ഡൊമിനിക് സാവിയോ "
   }, {
-    src: spb,
-    name: "S. P. Balasubrahmanyam"
+    src: sjp2,
+    name: "വി. ജോൺ പോൾ 2nd "
   }, {
-    src: vidhya,
-    name: "Vidya Balan"
+    src: sjmv,
+    name: "വി. ജോൺ മരിയ വിയാനി "
+  }, {
+    src: se,
+    name: "വി. ഏവുപ്രാസിയ"
+  }, {
+    src: sdp,
+    name: "വി. ദേവസഹായം പിള്ള "
+  }, {
+    src: saa,
+    name: "വി. അന്തോണീസ്"
+  }, {
+    src: sfx,
+    name: "വി. ഫ്രാൻസിസ് സേവ്യർ"
+  }, {
+    src: sfa,
+    name: "വി. തോമസ് അക്വിനാസ് "
+  }, {
+    src: smg,
+    name: "വി. മരിയ ഗൊരേത്തി "
   }
 ]
 
@@ -66,10 +94,10 @@ export const App = () => {
     setShowImageName(false)
   }
 
-  const selectImg = (index) =>{
+  const selectImg = (index) => {
     hide()
     setImageData(img[index])
-      setIndex(index)
+    setIndex(index)
   }
 
   const next = () => {
@@ -101,9 +129,9 @@ export const App = () => {
       </div>
       <div className="name">{(showImageName) ? imageData.name : '**************'}</div>
       <div className='button-container'>
-      {img.map((x, i) =>
-      <button className={index !==i ? 'image-index' : 'image-index selected'} onClick={()=>selectImg(i)} >{i+1}</button>
-      )}
+        {img.map((x, i) =>
+          <button className={index !== i ? 'image-index' : 'image-index selected'} onClick={() => selectImg(i)} >{i + 1}</button>
+        )}
       </div>
       <div className='button-container'>
         <button className="show" onClick={show}>Show</button>
