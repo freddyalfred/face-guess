@@ -1,24 +1,30 @@
 {
   "files": {
     "main.css": "/guess-who/static/css/main.07f39899.css",
-    "main.js": "/guess-who/static/js/main.9a8a0127.js",
+    "main.js": "/guess-who/static/js/main.61761d0a.js",
     "static/js/787.9b01dd39.chunk.js": "/guess-who/static/js/787.9b01dd39.chunk.js",
-    "static/media/vidya.jpg": "/guess-who/static/media/vidya.e8e1e41fcd1dd157100d.jpg",
-    "static/media/spb.jpg": "/guess-who/static/media/spb.68c2850f30cdd93f068d.jpg",
-    "static/media/indira.jpg": "/guess-who/static/media/indira.b09ec116816d5c8c9386.jpg",
-    "static/media/hawking.jpg": "/guess-who/static/media/hawking.ccfe097becb7b484c58a.jpg",
-    "static/media/mt.jpg": "/guess-who/static/media/mt.69cbd9e9748b5eefae1f.jpg",
-    "static/media/rohith.jpg": "/guess-who/static/media/rohith.7e3b91801c4e07a4412f.jpg",
-    "static/media/kunjako.jpg": "/guess-who/static/media/kunjako.54bb38e9f27f96798fd5.jpg",
-    "static/media/musk.jpeg": "/guess-who/static/media/musk.854cf7d1d4e8033615d0.jpeg",
-    "static/media/obama.jpg": "/guess-who/static/media/obama.7f06ef10be78b61f3129.jpg",
+    "static/media/st_thomas_aquinas.jpg": "/guess-who/static/media/st_thomas_aquinas.836e17b05993463a548d.jpg",
+    "static/media/st_faustina.jpg": "/guess-who/static/media/st_faustina.f924755c8911d6904dba.jpg",
+    "static/media/mother_teresa.jpeg": "/guess-who/static/media/mother_teresa.3050ee2ea8e4d002e07f.jpeg",
+    "static/media/st_francis_xavier.jpg": "/guess-who/static/media/st_francis_xavier.87c72521d203d5939f0e.jpg",
+    "static/media/st_dominic_savio.jpeg": "/guess-who/static/media/st_dominic_savio.c8db63fae4878e160069.jpeg",
+    "static/media/st_john_maria_vianney.jpeg": "/guess-who/static/media/st_john_maria_vianney.a5e34795b5b1cb1d7d63.jpeg",
+    "static/media/st_herese.jpeg": "/guess-who/static/media/st_herese.84fefd8335d8a1f7cfac.jpeg",
+    "static/media/st_anthony.jpeg": "/guess-who/static/media/st_anthony.529c1930ffbf5d6e52a6.jpeg",
+    "static/media/st_kuriakose.jpeg": "/guess-who/static/media/st_kuriakose.6441450db6e90c586c40.jpeg",
+    "static/media/st_evuprasiamma.jpeg": "/guess-who/static/media/st_evuprasiamma.dac445dd0771769b46b8.jpeg",
+    "static/media/st_john_paul_ii.jpeg": "/guess-who/static/media/st_john_paul_ii.ccb7f931b302fa826817.jpeg",
+    "static/media/st_maria_goretti.jpg": "/guess-who/static/media/st_maria_goretti.b662f9145b956f5915ad.jpg",
+    "static/media/st_alphonsa.jpeg": "/guess-who/static/media/st_alphonsa.6709524923a3f89ecea1.jpeg",
+    "static/media/st_devasahayam_pillai.jpeg": "/guess-who/static/media/st_devasahayam_pillai.680839504b18c10e95fc.jpeg",
+    "static/media/st_don_bosco.jpeg": "/guess-who/static/media/st_don_bosco.75105ed0902fdfc214f3.jpeg",
     "index.html": "/guess-who/index.html",
     "main.07f39899.css.map": "/guess-who/static/css/main.07f39899.css.map",
-    "main.9a8a0127.js.map": "/guess-who/static/js/main.9a8a0127.js.map",
+    "main.61761d0a.js.map": "/guess-who/static/js/main.61761d0a.js.map",
     "787.9b01dd39.chunk.js.map": "/guess-who/static/js/787.9b01dd39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07f39899.css",
-    "static/js/main.9a8a0127.js"
+    "static/js/main.61761d0a.js"
   ]
 }
